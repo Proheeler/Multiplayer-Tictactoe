@@ -12,6 +12,7 @@ class menu:public QWidget
 public:
     menu();
     Widget *w;
+    QMessageBox *mb1;
 
 
 public slots:
