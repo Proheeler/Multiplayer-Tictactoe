@@ -26,8 +26,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         widget.cpp \
-    button.cpp
+    button.cpp \
+    menu.cpp
 
 HEADERS += \
         widget.h \
-    button.h
+    button.h \
+    menu.h

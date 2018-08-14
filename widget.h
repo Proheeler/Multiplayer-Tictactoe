@@ -18,6 +18,9 @@ public:
     void endOfGame(int check);
 public slots:
     void ButtonClicked();
+    void ShowGame();
+signals:
+    void closeMenu();
 
 
 };

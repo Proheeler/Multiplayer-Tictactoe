@@ -106,9 +106,6 @@ void Widget::ButtonClicked()
            if(counter%2==0 || counter==0){
                clickedButton->setText("X");
                values[clickedButton->getNumber()-1]='X';
-
-
-
                 counter++;
            endOfGame( CheckForWinner(values));}
            else{
@@ -124,3 +121,11 @@ void Widget::ButtonClicked()
 
 
 }
+
+void Widget::ShowGame()
+{
+    this->show();
+    emit closeMenu();
+
+}
+
